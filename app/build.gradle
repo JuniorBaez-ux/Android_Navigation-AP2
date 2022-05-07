@@ -45,12 +45,12 @@ android {
     productFlavors {
     }
 
-    lintOptions {
-        abortOnError false
-    }
 
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
+    }
+    lint {
+        abortOnError false
     }
 }
 
